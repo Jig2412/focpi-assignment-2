@@ -4,7 +4,7 @@ int main() {
     int n, i, j, count = 0,arr[100];
 
     scanf("%d", &n);
-    for(i = 0; i < n; i++) {
+    for(i=0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
     for(i = 0; i < n; i++) {
@@ -17,6 +17,7 @@ int main() {
         }
     }
     if(count==0)
-        printf("-1");
+        printf("1");
     return 0;
 }
+
